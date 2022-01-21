@@ -4,7 +4,7 @@
  - Name: Marco Nemeth
  - [Link zur Aufgabenstellung](https://gitlab.com/ch-tbz-it/Stud/m129/-/tree/main/07_GNS3%20Labor%20Anforderungen#4-labor-3-ping-%C3%BCber-router-3-subnetze-und-lokalem-pc)
 
-![GNS3 Screenshot meines Labors](images/Labor3)
+![GNS3 Screenshot meines Labors](images/Labor3.png)
 
 ## Cloud1
  - br0 192.168.23.129
