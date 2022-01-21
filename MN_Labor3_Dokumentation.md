@@ -100,4 +100,4 @@ route add 192.168.32.0 mask 255.255.255.0 192.168.23.5
  - Routing war für mich neu
 
 ## Reflexion
-Ich finde, dass ich durch diese Übung viel gelernt habe und nun das Routen kennengelernt habe. Dies hat mir sehr weitergeholfen.
+Ich finde, dass ich durch diese Übung viel gelernt habe und nun das Routen kennengelernt habe. Allgemein hat mir diese Aufgabe sehr gut geholfen, dass Thema besser zu verstehen und ich denke, dass ich die nächsten Labore mit Leichtigkeit lösen werden kann. Ich habe sehr viel Zeit beim Routen auf das 2. Netzwerk gebraucht, als ich es jedoch hingekriegt habe, war es für mich kinderleicht.
