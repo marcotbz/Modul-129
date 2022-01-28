@@ -4,7 +4,7 @@
  - Name: Marco Nemeth
  - [Link zur Aufgabenstellung](https://gitlab.com/ch-tbz-it/Stud/m129/-/tree/main/07_GNS3%20Labor%20Anforderungen#5-labor-4-gns3-labor-4-aggregierte-statische-routen)
 
-![GNS3 Screenshot meines Labors](../images/Labor4.png)
+![GNS3 Screenshot meines Labors](../images/Labor4.PNG)
 
 ## Cloud1
  - br0 192.168.23.129
