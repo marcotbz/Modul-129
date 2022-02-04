@@ -4,7 +4,7 @@
  - Name: Marco Nemeth
  - [Link zur Aufgabenstellung](https://gitlab.com/ch-tbz-it/Stud/m129/-/tree/main/07_GNS3%20Labor%20Anforderungen#2-labor-1-ping-mit-switch)
 
-![GNS3 Screenshot meines Labors](images/Labor1.png)
+![GNS3 Screenshot meines Labors](../images/Labor1.png)
 
 ## Cloud1
  - br0 192.168.23.129
