@@ -86,6 +86,7 @@ R3(config-if)# exit
 
 R3(config)# ip route 192.168.23.0 255.255.255.0 192.168.255.5
 R3(config)# ip route 192.168.22.0 255.255.255.0 192.168.255.5
+R3(config)# ip route 192.168.140.0 255.255.255.0 192.168.255.5
 R3(config)# exit
 
 R3# copy running-config startup-config
