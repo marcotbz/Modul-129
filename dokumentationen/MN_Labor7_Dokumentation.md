@@ -66,7 +66,7 @@ no
  - [GNS3 MikroTik CHR 6.49.1](https://gns3.com/marketplace/appliances/mikrotik-cloud-hosted-router)
  - 3 Interfaces Enabled (Ethernet1, Ethernet2, Ethernet3)
 ```
-[admin@R2] > system identity set name=R1
+[admin@R2] > system identity set name=R2
 
 [admin@R2] > ip address add address=192.168.23.7/24 interface=ether1 network=192.168.23.0
 [admin@R2] > ip address add address=192.168.0.1/24 interface=ether2 network=192.168.0.0
