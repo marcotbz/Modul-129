@@ -25,6 +25,9 @@
 [admin@Core] > ip address add address=172.16.10.5/30 interface=ether4 network=172.16.10.4
 [admin@Core] > ip dhcp-client add interface=ether2 disabled=no
 
+[admin@R1] > ip dhcp-client edit ether1 add-default-route
+no
+
 [admin@Core] > ip firewall nat add action=masquerade chain=srcnat out-interface=ether2
 
 [admin@Core] > ip route add dst-address=0.0.0.0/0 gateway=192.168.122.1
@@ -50,6 +53,9 @@ addresses to give out: 192.168.0.50-192.168.0.150
 dns servers: 8.8.8.8
 lease time: 10m
 
+[admin@R1] > ip dhcp-client edit ether1 add-default-route
+no
+
 [admin@R1] > ip firewall nat add action=masquerade chain=srcnat out-interface=ether3
 
 [admin@R1] > ip route add dst-address=0.0.0.0/0 gateway=172.16.10.1
@@ -74,6 +80,9 @@ gateway for dhcp network: 192.168.0.1
 addresses to give out: 192.168.0.50-192.168.0.150
 dns servers: 8.8.8.8
 lease time: 10m
+
+[admin@R1] > ip dhcp-client edit ether1 add-default-route
+no
 
 [admin@R2] > ip firewall nat add action=masquerade chain=srcnat out-interface=ether3
 
